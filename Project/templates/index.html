@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1{
+            text-align: center;
+            text-decoration: dotted;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: underline;
+            color: lightgray;
+            background-color: rgb(2, 14, 84);
+            text-shadow:2px 2px black;}
+
+        p{
+            font-size:20px;
+            background-color:rgba(29, 24, 121, 0.384);
+            text-align: left;
+            font-size:20px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+            line-height: 25px;
+            letter-spacing: 1px;
+            column-count: 2;
+            column-gap:1px;
+        }
+        ul{
+            border-width:3px;
+            border-style:solid;
+            color: aliceblue;
+            border-color: darkblue;
+        }
+        li{
+            list-style-type:circle; 
+            text-shadow: 1px 1px darkblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        title{text-align: center;
+            text-decoration: dotted;
+            font-family: Arial;
+            text-decoration: underline;
+            color: lightgray;
+            background-color: rgb(2, 14, 84);
+            text-shadow:2px 2px black;}
+        body{
+                background-image: url(https://calaserreta.com/wp-content/uploads/2021/04/stock-prices-up.png)
+                ;
+        }
+        em{font-size:20px;
+            text-align: left;
+            background-color: rgba(46, 121, 178, 0.426);
+            font-size:20px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            
+            line-height: 25px;
+            letter-spacing: 1px;
+            column-count: 2;
+            column-gap:1px;
+
+        }
+        
+
+        
+
+        
+        
+
+    </style>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><strong>Stock Prices of IBM</strong></title>
+</head>
+<body>
+    <h1><strong>STOCK PRICES OF IBM</strong><br>IBM has a market capitalization of $153.216 billion, with an average trading volume of 4.41 million shares.</h1>
+    <!-- Render the Plotly chart from the Python code -->
+    {{ graph_html|safe }}   
+    <br>
+    <ul>
+        <li><strong>PREVIOUS CLOSE
+            $166.20</strong></li>
+        <li><strong>DAY RANGE
+            $164.30 - $166.27</strong></li>
+        <li><strong>YEAR RANGE
+            $120.55 - $199.18</strong></li>
+        <li><strong>MARKET CAP
+            150.74B USD</strong></li>
+        <li><strong>AVG VOLUME
+            4.41M</strong></li>
+        <li><strong>P/E RATIO
+            18.62</strong></li>
+        <li><strong>DIVIDEND YIELD
+            4.06%</strong></li>
+        <li><strong>PRIMARY EXCHANGE
+            NYSE</strong></li>
+    </ul>
+    <br><br>
+    <p><strong>ABOUT COMPANY</strong></p>
+    <em><strong>--></strong>With a rich history and global presence, IBM has played a pivotal role in shaping the digital landscape.<BR>
+        <strong>--></strong>IBM stockholders can access their registered stockholder account statements and additional information online through Computershare.
+        <br><strong>
+        <a href="https://www.ibm.com/investor/services/investor-information">To do so, visit www.computershare.com/ibm and log on
+             to either Investor Center or the Employee Plan website, depending on your holdings</a> <br>
+             <A href="https://www.ibm.com/investor/help/stockholder-services">Other IBM investor requests should be directed to IBM Stockholder Relations at New Orchard Road Armonk,
+                 NY 10504, or visit the IBM Investor Relations website at www.ibm.com/investor</A></strong><br><strong>--></strong>Company's breakthroughs 
+             include the development of the <strong>*Fortran programming language*</strong> and the <strong>*hard disk drive*</strong>.
+             </em><br><br>
+    <p><strong>ABOUT STOCKS</strong>
+    </p>
+    <em><strong>--></strong><strong>Stock Market Function:</strong> Stocks are primarily traded on stock exchanges, and their prices can fluctuate based on supply and demand. The stock market 
+        allows companies to raise money and investors to buy ownership in companies and potentially earn returns <br><strong>-->
+        Investor Benefits:</strong> As part of the ownership, shareholders may receive dividends and have the potential for
+         capital gains if the value of the stock increases over time<br><strong>-->Risk and Return:</strong> Historically, stocks have outperformed most other investments 
+         over the long run, but they also come with higher risk compared to less volatile investments like bonds<br><strong>--> Regulations:</strong> Stock trades are regulated by government
+          entities to protect investors from fraudulent practices and ensure a fair trading environment</em>
+    <div>
+    <p><strong>If you are intrested learn about stocks </strong></p>
+    <a href="https://www.youtube.com/watch?v=Xn7KWR9EOGQ&list=PL8uhW8cclMiNv8UT1NUawB-XpXVeJ8mN8">Click here</a><br><br>
+    <label for ="new"><strong>ABOUT IBM</strong></label><br>
+    <textarea name ="new" id ="shrey" cols="40" rows="10" placeholder="Comment here"></textarea>
+    </div>
+</body>
+</html>
